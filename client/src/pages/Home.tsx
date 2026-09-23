@@ -2,11 +2,19 @@ import { useEffect, useRef, useState } from "react";
 import { Heart, ChevronLeft, ChevronRight, Sparkles, Music2, LockKeyhole, Play, Pause } from "lucide-react";
 
 const photos = [
+<<<<<<< HEAD
   { src: "/media/amira-01.jpeg", alt: "أول صورة تجمع أميرة بحبيبها", label: "أول نظرة", comment: "من أول نظرة، قلبي عرفك.", memory: "يوم الدهب: ______________" },
   { src: "/media/amira-02.jpeg", alt: "لحظة لطيفة تجمع أميرة بحبيبها", label: "ضحكتك", comment: "ضحكتك هي غروب يومي الجميل.", memory: "التاريخ / الذكرى: ______________" },
   { src: "/media/amira-03.jpeg", alt: "لقطة من ذكريات أميرة", label: "كل الطرق", comment: "أي طريق يحلو، طالما إنتي فيه.", memory: "التاريخ / الذكرى: ______________" },
   { src: "/media/amira-04.jpeg", alt: "أول لقاء في بيتهم", label: "الفاتحة", comment: "أول بيت جمعنا، وأجمل بداية.", memory: "03.03.2026 — أول لقاء في بيتهم" },
   { src: "/media/amira-05.jpeg", alt: "صورة الخطوبة ولبس الدبلة", label: "الخطوبة", comment: "يوم لبسنا الدبلة، لبسنا الوعد.", memory: "29.05.2026 — الخطوبة ولبس الدبلة" },
+=======
+  { src: "/manus-storage/amira-01_5a38b8c0.jpeg", alt: "أول صورة تجمع أميرة بحبيبها", label: "أول نظرة", comment: "من أول نظرة، قلبي عرفك.", memory: "يوم الدهب: ______________" },
+  { src: "/manus-storage/amira-02_7dc993b5.jpeg", alt: "لحظة لطيفة تجمع أميرة بحبيبها", label: "ضحكتك", comment: "ضحكتك هي غروب يومي الجميل.", memory: "التاريخ / الذكرى: ______________" },
+  { src: "/manus-storage/amira-03_61c5cb02.jpeg", alt: "لقطة من ذكريات أميرة", label: "كل الطرق", comment: "أي طريق يحلو، طالما إنتي فيه.", memory: "التاريخ / الذكرى: ______________" },
+  { src: "/manus-storage/amira-04_42a68ba5.jpeg", alt: "أول لقاء في بيتهم", label: "الفاتحة", comment: "أول بيت جمعنا، وأجمل بداية.", memory: "03.03.2026 — أول لقاء في بيتهم" },
+  { src: "/manus-storage/amira-05_92f546d4.jpeg", alt: "صورة الخطوبة ولبس الدبلة", label: "الخطوبة", comment: "يوم لبسنا الدبلة، لبسنا الوعد.", memory: "29.05.2026 — الخطوبة ولبس الدبلة" },
+>>>>>>> 817f8c89ea6caa425266fc84324ba0a80bf18ec7
   { src: "https://images.unsplash.com/photo-1507504031003-b417219a0fde?auto=format&fit=crop&w=1600&q=85", alt: "سماء مليئة بالنجوم", label: "ليالينا", comment: "إنتي نجمة كل ليلة في عمري.", memory: "التاريخ / الذكرى: ______________" },
   { src: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=1600&q=85", alt: "قلب من الورد", label: "حب كبير", comment: "قلبي اختارك، وكل يوم بيختارك أكتر.", memory: "التاريخ / الذكرى: ______________" },
   { src: "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=1600&q=85", alt: "زهور وردية", label: "أميرة", comment: "أجمل وردة في حكاية عمري.", memory: "التاريخ / الذكرى: ______________" },
@@ -14,8 +22,13 @@ const photos = [
 
 // يمكن استبدال الرابطين بملفات الأغاني الخاصة بك عند إرسالها.
 const songs = [
+<<<<<<< HEAD
   { title: "أغنيتنا الأولى", subtitle: "لما القلب اختارك", src: "/media/first-song.mpeg" },
   { title: "أغنيتنا الثانية", subtitle: "وجودك أجمل لحن", src: "/media/second-song.mp3" },
+=======
+  { title: "أغنيتنا الأولى", subtitle: "لما القلب اختارك", src: "/manus-storage/amira-first-song_c661a100.mpeg" },
+  { title: "أغنيتنا الثانية", subtitle: "وجودك أجمل لحن", src: "/manus-storage/amira-second-song_3e9b8eae.mp3" },
+>>>>>>> 817f8c89ea6caa425266fc84324ba0a80bf18ec7
 ];
 
 export default function Home() {
@@ -58,7 +71,11 @@ export default function Home() {
         <div className="glow glow-one" /><div className="glow glow-two" />
         <div className="floating-heart heart-a">♥</div><div className="floating-heart heart-b">♡</div>
         <section className="gate-card">
+<<<<<<< HEAD
           <div className="avatar-wrap"><div className="avatar"><img src="/media/amira-01.jpeg" alt="أميرة" /></div><div className="avatar-ring" /></div>
+=======
+          <div className="avatar-wrap"><div className="avatar"><img src="/manus-storage/amira-01_5a38b8c0.jpeg" alt="أميرة" /></div><div className="avatar-ring" /></div>
+>>>>>>> 817f8c89ea6caa425266fc84324ba0a80bf18ec7
           <div className="tiny-kicker"><Sparkles size={13} /> حكاية مكتوبة بحب</div>
           <h1>عالم <em>أميرة</em></h1>
           <p className="gate-question">مفتاح قلب أميرة إيه؟</p>
